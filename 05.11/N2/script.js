@@ -1,12 +1,11 @@
-let techList = document.querySelector("#technologies");
+let mainTitle = document.querySelector("#mainTitle");
 
-let firstTech = document.createElement("li");
-firstTech.textContent = "Python";
+document.querySelector("#changeTextColor")
+.addEventListener("click", function() {
+    mainTitle.style.color = "green";
+});
 
-let secondTech = document.createElement("li");
-secondTech.textContent = "SQL";
-
-let thirdTech = document.createElement("li");
-thirdTech.textContent = "React";
-
-techList.append(firstTech, secondTech, thirdTech);
+document.querySelector("#changePageBg")
+.addEventListener("click", function() {
+    document.body.style.backgroundColor = "yellow";
+});
