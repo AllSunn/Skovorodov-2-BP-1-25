@@ -1,8 +1,8 @@
-var title = document.getElementById('title');
-var description = document.getElementById('description');
-var button = document.getElementById('change');
+var mainTitle = document.getElementById('mainTitle');
+var subtitle = document.getElementById('subtitle');
+var updateButton = document.getElementById('update');
 
-button.addEventListener('click', function() {
-    title.textContent = 'Добро пожаловать!';
-    description.textContent = 'Мы изучаем JavaScript и DOM';
+updateButton.addEventListener('click', function() {
+    mainTitle.textContent = 'Здравствуйте!';
+    subtitle.textContent = 'Осваиваем JavaScript и DOM';
 });
